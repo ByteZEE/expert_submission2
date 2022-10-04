@@ -29,4 +29,5 @@
     <string name="episode_count">%s Episode(s)</string>
     <string name="app_api">API - Kitsu API</string>
     <string name="title_favorite">Favorite</string>
+    <string name="api">API</string>
 </resources>

@@ -1,6 +1,7 @@
 package com.rafiadly.otakubandung.setting
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.provider.Settings
 import android.view.LayoutInflater
@@ -32,6 +33,12 @@ class SettingFragment : Fragment() {
 
         binding.tvLanguageSetting.setOnClickListener {
             startActivity(Intent(Settings.ACTION_LOCALE_SETTINGS))
+        }
+
+        binding.tvApiSetting.setOnClickListener {
+            val url = "https://kitsu.docs.apiary.io/"
+            val intent = Intent(Intent.ACTION_VIEW).setData(Uri.parse(url))
+            startActivity(intent)
         }
 
     }

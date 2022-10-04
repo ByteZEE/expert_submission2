@@ -31,6 +31,27 @@
         app:drawableStartCompat="@drawable/ic_language"
         app:drawableTint="@color/black" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="16dp"
+        android:text="@string/api"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_api_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:drawablePadding="8dp"
+        android:focusable="true"
+        android:padding="16dp"
+        app:drawableStartCompat="@drawable/ic_baseline_api_24"
+        android:text="@string/app_api" />
+
 
 
 
