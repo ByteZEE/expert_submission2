@@ -39,7 +39,7 @@ class RemoteDataSource(private val apiService: ApiService) {
                     )
                 }
 
-                if (anime.isNullOrEmpty()) {
+                if (anime.isEmpty()) {
                     emit(ApiResponse.Empty)
                 } else {
                     emit(ApiResponse.Success(anime))
