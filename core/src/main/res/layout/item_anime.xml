@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:foreground="?attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_poster_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/image_poster"
+            android:scaleType="fitCenter"
+            android:src="@drawable/poster_placeholder"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_title_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:maxLines="2"
+            android:text="@string/anime_title"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/img_poster_item"
+            app:layout_constraintStart_toStartOf="@+id/img_poster_item"
+            app:layout_constraintTop_toBottomOf="@+id/img_poster_item" />
+
+        <RatingBar
+            android:id="@+id/tv_rating"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="4dp"
+            android:gravity="center_vertical"
+            android:includeFontPadding="false"
+            android:isIndicator="true"
+            android:textSize="10sp"
+            android:transformPivotX="0dp"
+            app:drawableTint="@color/black"
+            app:layout_constraintStart_toStartOf="@+id/tv_title_item"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title_item" />
+
+        <TextView
+            android:id="@+id/tv_average_rating_detail_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/tv_rating"
+            app:layout_constraintTop_toTopOf="@+id/tv_rating" />
+        <TextView
+            android:id="@+id/tv_sinopsis"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:maxLines="3"
+            android:text="@string/anime_title"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="@+id/tv_rating"
+            app:layout_constraintTop_toBottomOf="@+id/tv_rating" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
