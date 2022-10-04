@@ -4,11 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Programming/Submission/OtakuBandung/app/src/main/res/drawable/ic_baseline_api_24.xml" value="0.2875" />
+        <entry key="..\:/Programming/Submission/OtakuBandung/app/src/main/res/drawable/ic_language.xml" value="0.196" />
+        <entry key="..\:/Programming/Submission/OtakuBandung/app/src/main/res/drawable/ic_settings.xml" value="0.196" />
+        <entry key="..\:/Programming/Submission/OtakuBandung/app/src/main/res/drawable/ic_start_search.xml" value="0.196" />
+        <entry key="..\:/Programming/Submission/OtakuBandung/app/src/main/res/layout/activity_detail.xml" value="0.22916666666666666" />
         <entry key="..\:/Programming/Submission/OtakuBandung/app/src/main/res/layout/activity_main.xml" value="0.2971014492753623" />
         <entry key="..\:/Programming/Submission/OtakuBandung/app/src/main/res/layout/fragment_discover.xml" value="0.2971014492753623" />
         <entry key="..\:/Programming/Submission/OtakuBandung/app/src/main/res/layout/fragment_setting.xml" value="0.2971014492753623" />
         <entry key="..\:/Programming/Submission/OtakuBandung/app/src/main/res/layout/item_anime_placeholder.xml" value="0.25" />
         <entry key="..\:/Programming/Submission/OtakuBandung/app/src/main/res/menu/bottom_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Programming/Submission/OtakuBandung/app/src/main/res/menu/main_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Programming/Submission/submisison-made-final-main (1)/submisison-made-final-main/app/src/main/res/layout/activity_splash.xml" value="0.35144927536231885" />
       </map>
     </option>

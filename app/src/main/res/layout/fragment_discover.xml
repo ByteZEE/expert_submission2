@@ -36,7 +36,7 @@
         android:id="@+id/img_start_search"
         android:layout_width="300dp"
         android:layout_height="300dp"
-        android:contentDescription="@string/image_start_search"
+        android:contentDescription="@string/search"
         android:src="@drawable/empty"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"

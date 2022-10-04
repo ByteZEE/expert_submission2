@@ -28,7 +28,6 @@
         android:focusable="true"
         android:padding="16dp"
         android:text="@string/change_language"
-        app:drawableStartCompat="@drawable/ic_language"
         app:drawableTint="@color/black" />
 
     <TextView
